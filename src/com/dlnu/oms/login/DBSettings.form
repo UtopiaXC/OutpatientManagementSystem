@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.dlnu.oms.login.DBSettings">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="50" bottom="20" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="460" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="c72f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei Light" size="18" style="0"/>
+          <text value="数据库IP/域名"/>
+        </properties>
+      </component>
+      <component id="ca5b3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei Light" size="18" style="0"/>
+          <text value="数据库端口"/>
+        </properties>
+      </component>
+      <component id="10e6d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei Light" size="18" style="0"/>
+          <text value="数据库名"/>
+        </properties>
+      </component>
+      <component id="9bb1f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei Light" size="18" style="0"/>
+          <text value="数据库登录名"/>
+        </properties>
+      </component>
+      <component id="37284" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei Light" size="18" style="0"/>
+          <text value="数据库密码"/>
+        </properties>
+      </component>
+      <component id="cbc8d" class="javax.swing.JTextField" binding="textFieldHost">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="18" style="0"/>
+        </properties>
+      </component>
+      <component id="ed7e6" class="javax.swing.JTextField" binding="textFieldPort">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="18" style="0"/>
+        </properties>
+      </component>
+      <component id="51760" class="javax.swing.JTextField" binding="textFieldDBName">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="18" style="0"/>
+        </properties>
+      </component>
+      <component id="b60be" class="javax.swing.JTextField" binding="textFieldUserName">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="18" style="0"/>
+        </properties>
+      </component>
+      <component id="fdb63" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei Light" size="18" style="0"/>
+          <text value="初次使用本系统请设置数据库"/>
+        </properties>
+      </component>
+      <component id="80b78" class="javax.swing.JPasswordField" binding="passwordField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+          <enabled value="true"/>
+          <font size="18" style="0"/>
+        </properties>
+      </component>
+      <component id="54f52" class="javax.swing.JButton" binding="ButtonSubmit">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Microsoft YaHei Light" size="16" style="0"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="设置"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
